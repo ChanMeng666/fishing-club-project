@@ -1,0 +1,11 @@
+Username:
+groupAC
+
+Password:
+groupAC666
+
+Database name:
+groupAC$default
+
+Database password:
+123456AC

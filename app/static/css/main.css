@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 56px;
+}
+
+
+
+
+@font-face {
+  font-family: "阿里妈妈灵动体 VF Thin";src: url("//at.alicdn.com/wf/webfont/csTLBHFYowpR/IU8ypTL94kNy.woff2") format("woff2"),
+  url("//at.alicdn.com/wf/webfont/csTLBHFYowpR/Vzqz7sa2hT5p.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  font-family: "阿里妈妈灵动体 VF Thin", sans-serif;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+}
