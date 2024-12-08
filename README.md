@@ -7,6 +7,10 @@
  <img src="https://img.shields.io/badge/License-MIT-green"/>
 </div>
 
+![screencapture-groupac-pythonanywhere-2024-12-08-17_32_52](https://github.com/user-attachments/assets/e8ab9522-7b2d-4ea3-8687-aba0b774bcb7)
+
+![screencapture-groupac-pythonanywhere-login-2024-12-08-17_33_11](https://github.com/user-attachments/assets/a777c8a2-b5a4-4c06-9d74-b42c9e5acb29)
+
 
 <br/>
 
