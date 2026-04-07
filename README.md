@@ -1,12 +1,12 @@
 <div align="center"><a name="readme-top"></a>
 
-<h1> <img src="/app/static/images/shipfishing.svg" width="80px"><br/>East Coast Anglers Club Management System</h1>
+<h1> <img src="/public/shipfishing.svg" width="80px"><br/>East Coast Anglers Club</h1>
 
-# 🎣 East Coast Anglers Club<br/><h3>Comprehensive Fishing Club Management Platform</h3>
+# 🎣 East Coast Anglers Club<br/><h3>Comprehensive Fishing Club Website</h3>
 
-A modern web-based management system designed to streamline fishing club operations and enhance member experiences.<br/>
-Features role-based dashboards, event management, guide booking, and community engagement tools.<br/>
-One-click **FREE** deployment for fishing clubs and outdoor organizations.
+A modern, responsive fishing club website built with Next.js, Tailwind CSS, and shadcn/ui.<br/>
+Features a polished landing page, video-background login, and guide showcase.<br/>
+Deployed on **Cloudflare Pages** for global edge delivery.
 
 [Live Demo][demo-link] · [Documentation][docs] · [Report Issues][github-issues-link]
 
@@ -19,7 +19,7 @@ One-click **FREE** deployment for fishing clubs and outdoor organizations.
 <!-- SHIELD GROUP -->
 
 [![][github-release-shield]][github-release-link]
-[![][vercel-shield]][vercel-link]
+[![][cloudflare-shield]][demo-link]
 [![][github-contributors-shield]][github-contributors-link]
 [![][github-stars-shield]][github-stars-link]
 [![][github-issues-shield]][github-issues-link]
@@ -35,16 +35,17 @@ One-click **FREE** deployment for fishing clubs and outdoor organizations.
 
 <sup>🌟 Revolutionizing fishing club management for the digital age. Built for anglers, by anglers.</sup>
 
-![Python](https://img.shields.io/badge/python-3.9+-blue)
-![Flask](https://img.shields.io/badge/flask-2.0+-brightgreen)
-![Bootstrap](https://img.shields.io/badge/bootstrap-5.0+-purple)
-![SQLite](https://img.shields.io/badge/sqlite-3.0+-orange)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-latest-000000)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-deployed-F38020?logo=cloudflare)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 </div>
 
 > [!TIP]
-> This is a complete fishing club management solution with member dashboards, event booking, guide management, and administrative tools.
+> This is a modern fishing club website showcasing the club's services, guides, events, and membership information with a beautiful, responsive design.
 
 ## 📸 Project Screenshots
 
@@ -62,82 +63,36 @@ One-click **FREE** deployment for fishing clubs and outdoor organizations.
   <p><em>Dashboard Overview and Secure Login Interface</em></p>
 </div>
 
-<details>
-<summary><kbd>📱 More Screenshots</kbd></summary>
-
-<div align="center">
-  <p><em>Additional screenshots of member dashboard, admin panel, and event management features will be displayed here</em></p>
-</div>
-
-</details>
-
-## 🎬 Demo Video
-
-> [!NOTE]
-> Watch the fishing club management system in action with our comprehensive demo.
-
-<div align="center">
-
-https://github.com/user-attachments/assets/a0b4c026-536e-4546-a1dc-6e5ae982d4eb
-
-*Comprehensive walkthrough of all major features*
-
-</div>
-
 **Tech Stack Badges:**
 
 <div align="center">
 
- <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"/>
- <img src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"/>
- <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
- <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"/>
- <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
- <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
- <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+ <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white"/>
+ <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+ <img src="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
+ <img src="https://img.shields.io/badge/tailwindcss-%2306B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+ <img src="https://img.shields.io/badge/cloudflare-%23F38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white"/>
+ <img src="https://img.shields.io/badge/shadcn%2Fui-000000.svg?style=for-the-badge&logo=shadcnui&logoColor=white"/>
 
 </div>
 
 > [!IMPORTANT]
-> This project demonstrates modern web development practices specifically tailored for outdoor recreation management. It combines Flask backend with Bootstrap frontend to provide comprehensive club management functionality including member registration, event booking, guide scheduling, and administrative oversight.
+> This project uses a modern frontend stack (Next.js + Tailwind CSS + shadcn/ui) with static export deployed on Cloudflare Pages. It is a **frontend-only** project with no backend or database — all pages are statically generated.
 
 <details>
 <summary><kbd>📑 Table of Contents</kbd></summary>
 
 #### TOC
 
-- [🎣 East Coast Anglers ClubComprehensive Fishing Club Management Platform](#-east-coast-anglers-clubcomprehensive-fishing-club-management-platform)
-  - [📸 Project Screenshots](#-project-screenshots)
-  - [🎬 Demo Video](#-demo-video)
-      - [TOC](#toc)
-      - [](#)
-  - [🌟 Introduction](#-introduction)
-  - [✨ Key Features](#-key-features)
-    - [`1` Member Management System](#1-member-management-system)
-    - [`2` Event \& Guide Booking](#2-event--guide-booking)
-    - [`*` Additional Features](#-additional-features)
-  - [🛠️ Tech Stack](#️-tech-stack)
-  - [🏗️ Architecture](#️-architecture)
-    - [System Architecture](#system-architecture)
-    - [Application Structure](#application-structure)
-  - [🚀 Getting Started](#-getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Quick Installation](#quick-installation)
-    - [Development Mode](#development-mode)
-  - [🛳 Deployment](#-deployment)
-  - [📖 Usage Guide](#-usage-guide)
-    - [Basic Usage](#basic-usage)
-    - [Advanced Configuration](#advanced-configuration)
-  - [🤝 Contributing](#-contributing)
-    - [Development Process](#development-process)
-    - [Contribution Guidelines](#contribution-guidelines)
-  - [📄 License](#-license)
-  - [👥 Team](#-team)
-  - [🙋‍♀️ Author](#️-author)
-  - [🚨 Troubleshooting](#-troubleshooting)
-    - [Installation Issues](#installation-issues)
-    - [Development Issues](#development-issues)
-  - [📚 FAQ](#-faq)
+- [🌟 Introduction](#-introduction)
+- [✨ Key Features](#-key-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🏗️ Architecture](#️-architecture)
+- [🚀 Getting Started](#-getting-started)
+- [🛳 Deployment](#-deployment)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙋‍♀️ Author](#️-author)
 
 ####
 
@@ -147,57 +102,47 @@ https://github.com/user-attachments/assets/a0b4c026-536e-4546-a1dc-6e5ae982d4eb
 
 ## 🌟 Introduction
 
-Welcome to the East Coast Anglers Club Management System - a comprehensive web application designed to revolutionize how fishing clubs operate and engage with their members. Built with modern web technologies and a deep understanding of angling community needs.
+Welcome to the East Coast Anglers Club website — a modern, beautifully designed website for freshwater fishing enthusiasts. The site showcases the club's services, introduces fishing guides, displays upcoming events, and provides an intuitive registration flow.
 
-Whether you're a club administrator managing events, a fishing guide coordinating sessions, or a member looking to participate in activities, this platform provides intuitive tools for every user type.
+The project was migrated from a legacy Flask + Bootstrap stack to a modern Next.js + Tailwind CSS + shadcn/ui architecture, deployed on Cloudflare Pages for fast global delivery.
 
 > [!NOTE]
-> - Python 3.9+ required
-> - Flask framework for robust backend functionality
-> - Bootstrap 5 for responsive, mobile-friendly design
-> - SQLite database for reliable data storage
+> - Node.js 18+ required
+> - Next.js 16 with App Router and TypeScript
+> - Tailwind CSS 4 + shadcn/ui for polished UI components
+> - Static export deployed on Cloudflare Pages
 
-| [![Live Demo][demo-shield-badge]][demo-link] | Experience the full functionality without any installation required! |
-| :------------------------------------------- | :------------------------------------------------------------------- |
-
-> [!TIP]
-> **⭐ Star us** to stay updated with new features and improvements!
+| [![Live Demo][demo-shield-badge]][demo-link] | Experience the live site on Cloudflare Pages! |
+| :------------------------------------------- | :-------------------------------------------- |
 
 ## ✨ Key Features
 
-### `1` Member Management System
+### `1` Landing Page
 
-Experience comprehensive member lifecycle management with role-based access control. Our system supports three distinct user roles - Members, Guides, and Administrators - each with tailored dashboards and functionality.
+A comprehensive landing page with 8 distinct sections:
 
-**Key capabilities include:**
-- 👥 **Multi-Role Support**: Members, Guides, and Administrators
-- 📋 **Profile Management**: Complete member information tracking
-- 🔐 **Secure Authentication**: Login/registration with session management
-- 📊 **Activity Tracking**: Member participation and engagement metrics
+- 🏠 **Hero Section**: Welcome banner with club branding and call-to-action
+- ✉️ **Registration CTA**: Email subscription bar for quick sign-up
+- 🃏 **Feature Cards**: Membership Options, Event Booking, Guide Sessions
+- ℹ️ **About Section**: Club introduction with imagery
+- 📅 **Events Section**: Upcoming fishing trips and workshops
+- ❓ **FAQ Accordion**: Interactive Q&A using shadcn/ui Accordion
+- 🎣 **Guides Showcase**: 4 professional guide profiles with photos
+- 📞 **Contact Section**: Phone, email, and address information
 
-### `2` Event & Guide Booking
+### `2` Authentication Pages
 
-Revolutionary booking system that streamlines event registration and guide scheduling. Members can easily browse and register for fishing trips, workshops, and one-on-one guide sessions.
+- 🎥 **Video Background Login**: Full-viewport `fishing.mp4` background with `darkkhaki` color overlay (`mix-blend-mode: overlay`), translucent form inputs
+- 📝 **Registration Page**: Matching design with username, email, password, and confirm password fields
+- 🔗 **Cross-linked**: Login and register pages link to each other
 
-**Available Features:**
-- 📅 **Event Management**: Create and manage fishing events and workshops
-- 🎣 **Guide Scheduling**: Book personalized sessions with expert guides
-- 📝 **Registration System**: Simple, intuitive booking process
-- 📰 **News & Updates**: Stay informed with club announcements
+### `*` Design & UX
 
-### `*` Additional Features
-
-Beyond the core functionality, this system includes:
-
-- [x] 🏠 **Modern Landing Page**: Attractive, informative homepage
-- [x] 📱 **Responsive Design**: Mobile-friendly Bootstrap interface
-- [x] 🔒 **Secure Access**: Role-based permissions and authentication
-- [x] 📊 **Admin Dashboard**: Comprehensive administrative controls
-- [x] 📝 **Content Management**: News, events, and member communication
-- [x] 🎯 **User-Focused Design**: Intuitive navigation and user experience
-- [x] 🌐 **Cross-Platform**: Works on desktop, tablet, and mobile devices
-
-> ✨ Continuously evolving with new features based on community feedback.
+- [x] 📱 **Fully Responsive**: Mobile, tablet, and desktop layouts
+- [x] 🎨 **Modern UI**: shadcn/ui components with Tailwind CSS
+- [x] 🧭 **Mobile Navigation**: Sheet-based mobile menu
+- [x] ⚡ **Static Export**: Pre-rendered HTML for instant page loads
+- [x] 🌐 **Edge Delivery**: Cloudflare Pages CDN for global performance
 
 <div align="right">
 
@@ -211,58 +156,56 @@ Beyond the core functionality, this system includes:
   <table>
     <tr>
       <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/flask" width="48" height="48" alt="Flask" />
-        <br>Flask 2.0+
+        <img src="https://cdn.simpleicons.org/next.js" width="48" height="48" alt="Next.js" />
+        <br>Next.js 16
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/python" width="48" height="48" alt="Python" />
-        <br>Python 3.9+
+        <img src="https://cdn.simpleicons.org/typescript" width="48" height="48" alt="TypeScript" />
+        <br>TypeScript
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/bootstrap" width="48" height="48" alt="Bootstrap" />
-        <br>Bootstrap 5
+        <img src="https://cdn.simpleicons.org/react" width="48" height="48" alt="React" />
+        <br>React 19
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/sqlite" width="48" height="48" alt="SQLite" />
-        <br>SQLite
+        <img src="https://cdn.simpleicons.org/tailwindcss" width="48" height="48" alt="Tailwind CSS" />
+        <br>Tailwind CSS 4
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/html5" width="48" height="48" alt="HTML5" />
-        <br>HTML5
+        <img src="https://cdn.simpleicons.org/shadcnui" width="48" height="48" alt="shadcn/ui" />
+        <br>shadcn/ui
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/css3" width="48" height="48" alt="CSS3" />
-        <br>CSS3
-      </td>
-      <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/javascript" width="48" height="48" alt="JavaScript" />
-        <br>JavaScript
+        <img src="https://cdn.simpleicons.org/cloudflare" width="48" height="48" alt="Cloudflare" />
+        <br>CF Pages
       </td>
     </tr>
   </table>
 </div>
 
-**Backend Stack:**
-- **Framework**: Flask 2.0+ with Blueprint architecture
-- **Language**: Python 3.9+ for robust server-side logic
-- **Database**: SQLite for reliable data persistence
-- **Templates**: Jinja2 templating engine
-- **Forms**: Flask-WTF for secure form handling
-
 **Frontend Stack:**
-- **CSS Framework**: Bootstrap 5 for responsive design
-- **Styling**: Custom CSS for fishing club theming
-- **JavaScript**: Vanilla JS with Bootstrap components
-- **Icons**: Custom SVG icons and Bootstrap icons
-- **Responsive**: Mobile-first design approach
+- **Framework**: Next.js 16 (App Router, Turbopack)
+- **Language**: TypeScript 5
+- **UI Library**: React 19
+- **Styling**: Tailwind CSS 4 + shadcn/ui (based on @base-ui/react)
+- **Icons**: Lucide React + custom SVG icons
+- **Fonts**: Geist Sans & Geist Mono (via `next/font/google`)
 
-**Development Tools:**
-- **Version Control**: Git for source code management
-- **Package Management**: pip with requirements.txt
-- **Deployment**: Compatible with various hosting platforms
+**Build & Deployment:**
+- **Output**: Static export (`output: 'export'` in `next.config.ts`)
+- **Hosting**: Cloudflare Pages (global CDN)
+- **CLI**: Wrangler for deployment
+- **Build Tool**: Turbopack (default in Next.js 16)
+
+**Key Dependencies:**
+- `@base-ui/react` — primitive components for shadcn/ui v4
+- `class-variance-authority` — component variant management
+- `tailwind-merge` — intelligent Tailwind class merging
+- `lucide-react` — icon library
+- `tw-animate-css` — animation utilities
 
 > [!TIP]
-> Each technology was selected for simplicity, reliability, and ease of deployment, making it perfect for fishing clubs of all sizes.
+> This is a frontend-only static site. No backend server, database, or API is required.
 
 ## 🏗️ Architecture
 
@@ -270,68 +213,99 @@ Beyond the core functionality, this system includes:
 
 ```mermaid
 graph TB
-    subgraph "Frontend Layer"
-        A[Bootstrap UI] --> B[Jinja2 Templates]
-        B --> C[User Interfaces]
-        C --> D[Form Handling]
+    subgraph "Frontend (Next.js App Router)"
+        A[Root Layout - Navbar + Footer] --> B[Landing Page]
+        A --> C[Login Page]
+        A --> D[Register Page]
     end
-    
-    subgraph "Backend Layer"
-        E[Flask Application] --> F[Blueprint Routes]
-        F --> G[Business Logic]
-        G --> H[Database Models]
+
+    subgraph "Landing Page Sections"
+        B --> B1[Hero Section]
+        B --> B2[Registration CTA]
+        B --> B3[Features Cards]
+        B --> B4[About Section]
+        B --> B5[Events Section]
+        B --> B6[FAQ Accordion]
+        B --> B7[Guides Showcase]
+        B --> B8[Contact Section]
     end
-    
-    subgraph "Data Layer"
-        I[SQLite Database]
-        J[Static Files]
-        K[Templates]
+
+    subgraph "Build & Deploy"
+        E[Next.js Static Export] --> F[out/ directory]
+        F --> G[Cloudflare Pages CDN]
     end
-    
-    D --> E
-    H --> I
-    B --> K
-    A --> J
-    
-    subgraph "User Roles"
-        L[Members]
-        M[Guides]
-        N[Administrators]
-    end
-    
-    L --> A
-    M --> A
-    N --> A
+
+    A --> E
 ```
 
-### Application Structure
+### Project Structure
 
 ```
 fishing-club-project/
-├── app/                     # Main application package
-│   ├── views/              # Route blueprints
-│   │   ├── main.py        # Landing page routes
-│   │   ├── auth.py        # Authentication routes
-│   │   ├── member.py      # Member dashboard routes
-│   │   ├── guide.py       # Guide management routes
-│   │   └── admin.py       # Administrative routes
-│   ├── templates/         # HTML templates
-│   │   ├── main/          # Landing page templates
-│   │   ├── auth/          # Login/register templates
-│   │   ├── member/        # Member dashboard templates
-│   │   ├── guide/         # Guide interface templates
-│   │   └── admin/         # Admin panel templates
-│   ├── static/           # Static assets
-│   │   ├── css/          # Stylesheets
-│   │   ├── js/           # JavaScript files
-│   │   └── images/       # Images and media
-│   ├── utilities/        # Helper functions
-│   ├── models.py         # Database models
-│   ├── forms.py          # Form definitions
-│   └── config.py         # Configuration settings
-├── app.py               # Application entry point
-└── requirements.txt     # Python dependencies
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx              # Root layout (Navbar + Footer)
+│   │   ├── page.tsx                # Landing page (8 sections)
+│   │   ├── globals.css             # Tailwind + shadcn/ui theme
+│   │   ├── favicon.ico
+│   │   ├── login/
+│   │   │   └── page.tsx            # Video background login
+│   │   └── register/
+│   │       └── page.tsx            # Registration page
+│   ├── components/
+│   │   ├── ui/                     # shadcn/ui components
+│   │   │   ├── accordion.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── navigation-menu.tsx
+│   │   │   ├── separator.tsx
+│   │   │   └── sheet.tsx
+│   │   ├── layout/
+│   │   │   ├── navbar.tsx          # Fixed top navbar with fish SVG logo
+│   │   │   └── footer.tsx          # Copyright footer
+│   │   └── landing/
+│   │       ├── hero-section.tsx
+│   │       ├── registration-cta.tsx
+│   │       ├── features-cards.tsx
+│   │       ├── about-section.tsx
+│   │       ├── events-section.tsx
+│   │       ├── faq-accordion.tsx
+│   │       ├── guides-showcase.tsx
+│   │       └── contact-section.tsx
+│   └── lib/
+│       └── utils.ts                # cn() class merge helper
+├── public/
+│   ├── fishing.mp4                 # Video background (2.1MB)
+│   ├── shipfishing.svg             # Club logo SVG
+│   └── favicon.ico
+├── flask_app/                      # Legacy Flask app (archived)
+├── app.py                          # Legacy Flask entry point (archived)
+├── next.config.ts                  # Next.js config (static export)
+├── tailwind.config.ts              # Tailwind CSS config
+├── tsconfig.json                   # TypeScript config
+├── components.json                 # shadcn/ui config
+├── postcss.config.mjs              # PostCSS config
+├── eslint.config.mjs               # ESLint config
+├── package.json                    # Node.js dependencies
+├── CODE_OF_CONDUCT.md
+├── LICENSE                         # MIT License
+└── README.md
 ```
+
+### Pages & Routes
+
+| Route | File | Description |
+|-------|------|-------------|
+| `/` | `src/app/page.tsx` | Landing page with 8 sections |
+| `/login` | `src/app/login/page.tsx` | Video background login (display only) |
+| `/register` | `src/app/register/page.tsx` | Registration form (display only) |
+
+### External Resources
+
+The landing page references external images via CDN:
+- `cdn.pixabay.com` — Fly fishing hero image, fishing trip image, guide profile photos
+- `th.bing.com` — About section lake image
 
 ## 🚀 Getting Started
 
@@ -340,8 +314,8 @@ fishing-club-project/
 > [!IMPORTANT]
 > Ensure you have the following installed:
 
-- Python 3.9+ ([Download](https://python.org/downloads/))
-- pip package manager (included with Python)
+- Node.js 18+ ([Download](https://nodejs.org/))
+- npm 9+ (included with Node.js)
 - Git ([Download](https://git-scm.com/))
 
 ### Quick Installation
@@ -353,136 +327,72 @@ git clone https://github.com/ChanMeng666/fishing-club-project.git
 cd fishing-club-project
 ```
 
-**2. Create Virtual Environment**
+**2. Install Dependencies**
 
 ```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+npm install
 ```
 
-**3. Install Dependencies**
+**3. Start Development Server**
 
 ```bash
-pip install -r requirements.txt
+npm run dev
 ```
 
-**4. Initialize Database**
+🎉 **Success!** Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+### Available Scripts
 
 ```bash
-# Run database initialization script
-python init_db.py
-```
-
-**5. Start Development Server**
-
-```bash
-python app.py
-```
-
-🎉 **Success!** Open [http://localhost:5000](http://localhost:5000) to view the application.
-
-### Development Mode
-
-```bash
-# Start with debug mode
-python app.py
-
-# The application will automatically reload on code changes
-# Access different user roles:
-# - Main page: http://localhost:5000
-# - Login: http://localhost:5000/login
-# - Register: http://localhost:5000/register
+npm run dev      # Start development server (Turbopack)
+npm run build    # Build static export to out/ directory
+npm run start    # Start production server (not used for static)
+npm run lint     # Run ESLint
 ```
 
 ## 🛳 Deployment
 
 > [!IMPORTANT]
-> Choose the deployment strategy that best fits your fishing club's needs.
+> The project is deployed on **Cloudflare Pages** as a static site.
 
-**Cloud Deployment Options:**
+### Cloudflare Pages Deployment
 
-<div align="center">
+**Prerequisites:**
+- Cloudflare account
+- Wrangler CLI (`npm install -D wrangler`)
 
-|           Deploy with Heroku            |                     Deploy with PythonAnywhere                      |                     Deploy with Railway                      |
-| :-------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
-| [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com) | [![Deploy with PythonAnywhere](https://img.shields.io/badge/Deploy-PythonAnywhere-blue)](https://pythonanywhere.com) | [![Deploy with Railway](https://railway.app/button.svg)](https://railway.app) |
-
-</div>
-
-**Manual Deployment:**
+**Deploy Commands:**
 
 ```bash
-# Install gunicorn for production
-pip install gunicorn
+# 1. Login to Cloudflare
+npx wrangler login
 
-# Run with gunicorn
-gunicorn -w 4 -b 0.0.0.0:5000 app:app
+# 2. Build the static site
+npm run build
+
+# 3. Deploy to Cloudflare Pages
+# Replace ACCOUNT_ID with your Cloudflare account ID
+CLOUDFLARE_ACCOUNT_ID=your-account-id npx wrangler pages deploy out --project-name=fishing-club --commit-dirty=true
 ```
 
-**Environment Variables:**
+**Current Deployment:**
+- **Production URL**: https://fishing-club.pages.dev
+- **Account**: chanmeng.dev@gmail.com
+- **Account ID**: `c87dca24333f7ed5d643f731f6308fec`
+- **Project Name**: `fishing-club`
 
-```bash
-# Production settings
-export FLASK_ENV=production
-export SECRET_KEY=your-secret-key-here
-export DATABASE_URL=sqlite:///production.db
-```
+### Alternative: GitHub Integration
 
-## 📖 Usage Guide
+You can also connect the repository directly to Cloudflare Pages for automatic deployments:
 
-### Basic Usage
-
-**Getting Started:**
-
-1. **Visit Homepage** to explore club information and features
-2. **Register Account** as a new member or guide
-3. **Login** to access your personalized dashboard
-4. **Explore Features** based on your role (Member/Guide/Admin)
-
-**For Members:**
-- Browse and register for fishing events
-- Book one-on-one sessions with guides
-- View club news and updates
-- Manage personal profile and subscriptions
-
-**For Guides:**
-- Manage availability and schedules
-- View upcoming sessions and events
-- Update profile and specializations
-- Access member booking requests
-
-**For Administrators:**
-- Manage all users, events, and content
-- View comprehensive reports and analytics
-- Configure system settings
-- Oversee club operations
-
-### Advanced Configuration
-
-**Customizing the Club:**
-
-```python
-# app/config.py
-class Config:
-    CLUB_NAME = "East Coast Anglers Club"
-    CLUB_DESCRIPTION = "Premier freshwater fishing community"
-    MAX_MEMBERS = 500
-    SUBSCRIPTION_FEES = {
-        'basic': 50.00,
-        'premium': 100.00,
-        'lifetime': 500.00
-    }
-```
+1. Go to Cloudflare Dashboard → Pages
+2. Connect to GitHub repository
+3. Set build command: `npm run build`
+4. Set build output directory: `out`
 
 ## 🤝 Contributing
 
-We welcome contributions from the fishing and development communities! Here's how you can help:
+We welcome contributions from the fishing and development communities!
 
 ### Development Process
 
@@ -496,37 +406,30 @@ cd fishing-club-project
 **2. Create Feature Branch:**
 
 ```bash
-git checkout -b feature/amazing-fishing-feature
+git checkout -b feature/amazing-feature
 ```
 
 **3. Make Changes:**
 
-- Follow Python PEP 8 style guidelines
-- Add appropriate comments and documentation
-- Test your changes thoroughly
-- Ensure responsive design principles
+- Follow TypeScript best practices
+- Use Tailwind CSS for styling (no inline styles)
+- Create modular React components
+- Ensure responsive design
+- Test on multiple viewport sizes
 
 **4. Submit PR:**
 
 - Provide clear description of changes
 - Include screenshots for UI modifications
-- Reference any related issues
-- Ensure all tests pass
+- Ensure `npm run build` succeeds
 
-### Contribution Guidelines
+### Code Style
 
-**Code Style:**
-- Use Python PEP 8 conventions
-- Follow Flask best practices
-- Write meaningful commit messages
-- Add docstrings for new functions
-
-**Areas for Contribution:**
-- 🐛 **Bug Reports**: Help us identify and fix issues
-- 💡 **Feature Requests**: Suggest new fishing club features
-- 📚 **Documentation**: Improve our guides and documentation
-- 🎨 **UI/UX**: Enhance the user experience
-- 🔧 **Code**: Contribute new features or improvements
+- TypeScript strict mode enabled
+- React functional components with hooks
+- Tailwind CSS utility-first approach
+- shadcn/ui for reusable UI components
+- Lucide React for icons
 
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ChanMeng666/fishing-club-project/issues)
 
@@ -540,24 +443,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - ✅ Distribution allowed
 - ✅ Private use allowed
 
-## 👥 Team
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/ChanMeng666">
-          <img src="https://github.com/ChanMeng666.png?size=100" width="100px;" alt="Chan Meng"/>
-          <br />
-          <sub><b>Chan Meng</b></sub>
-        </a>
-        <br />
-        <small>Creator & Lead Developer</small>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ## 🙋‍♀️ Author
 
 **Chan Meng**
@@ -565,73 +450,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - <img src="https://cdn.simpleicons.org/github/181717" width="16" height="16"> GitHub: [ChanMeng666](https://github.com/ChanMeng666)
 - <img src="https://cdn.simpleicons.org/gmail/EA4335" width="16" height="16"> Email: [chanmeng.dev@gmail.com](mailto:chanmeng.dev@gmail.com)
 - <img src="https://cdn.simpleicons.org/internetexplorer/0078D4" width="16" height="16"> Website: [chanmeng.live](https://2d-portfolio-eta.vercel.app/)
-
-## 🚨 Troubleshooting
-
-<details>
-<summary><kbd>🔧 Common Issues</kbd></summary>
-
-### Installation Issues
-
-**Python Version Conflicts:**
-```bash
-# Check Python version
-python --version
-
-# Use Python 3.9+
-python3 -m venv venv
-```
-
-**Package Installation Failures:**
-```bash
-# Upgrade pip
-python -m pip install --upgrade pip
-
-# Install from requirements
-pip install -r requirements.txt
-```
-
-### Development Issues
-
-**Port Already in Use:**
-```bash
-# Check what's using port 5000
-lsof -i :5000
-
-# Kill the process or use different port
-export FLASK_RUN_PORT=5001
-```
-
-**Database Issues:**
-```bash
-# Reset database
-rm instance/database.db
-python init_db.py
-```
-
-</details>
-
-## 📚 FAQ
-
-<details>
-<summary><kbd>❓ Frequently Asked Questions</kbd></summary>
-
-**Q: Can I customize this for my own fishing club?**
-A: Absolutely! The system is designed to be easily customizable for any fishing organization.
-
-**Q: Does it support multiple fishing clubs?**
-A: Currently designed for single club use, but can be extended for multi-tenant support.
-
-**Q: Can I add payment processing?**
-A: Yes, the architecture supports integration with payment processors like Stripe or PayPal.
-
-**Q: Is mobile access supported?**
-A: Yes, the Bootstrap-based interface is fully responsive and mobile-friendly.
-
-**Q: How do I backup my data?**
-A: Regular SQLite database backups are recommended. See our deployment guide for details.
-
-</details>
 
 ---
 
@@ -659,7 +477,7 @@ A: Regular SQLite database backups are recommended. See our deployment guide for
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
 
 <!-- Project Links -->
-[demo-link]: https://groupac.pythonanywhere.com/
+[demo-link]: https://fishing-club.pages.dev
 [docs]: https://github.com/ChanMeng666/fishing-club-project#readme
 [github-issues-link]: https://github.com/ChanMeng666/fishing-club-project/issues
 [github-stars-link]: https://github.com/ChanMeng666/fishing-club-project/stargazers
@@ -669,21 +487,20 @@ A: Regular SQLite database backups are recommended. See our deployment guide for
 
 <!-- Shield Badges -->
 [github-release-shield]: https://img.shields.io/github/v/release/ChanMeng666/fishing-club-project?color=369eff&labelColor=black&logo=github&style=flat-square
-[vercel-shield]: https://img.shields.io/badge/demo-online-55b467?labelColor=black&logo=vercel&style=flat-square
+[cloudflare-shield]: https://img.shields.io/badge/demo-online-F38020?labelColor=black&logo=cloudflare&style=flat-square
 [github-contributors-shield]: https://img.shields.io/github/contributors/ChanMeng666/fishing-club-project?color=c4f042&labelColor=black&style=flat-square
 [github-stars-shield]: https://img.shields.io/github/stars/ChanMeng666/fishing-club-project?color=ffcb47&labelColor=black&style=flat-square
 [github-issues-shield]: https://img.shields.io/github/issues/ChanMeng666/fishing-club-project?color=ff80eb&labelColor=black&style=flat-square
 [github-license-shield]: https://img.shields.io/badge/license-MIT-white?labelColor=black&style=flat-square
 
 <!-- Badge Variants -->
-[demo-shield-badge]: https://img.shields.io/badge/TRY%20DEMO-ONLINE-55b467?labelColor=black&logo=vercel&style=for-the-badge
-[vercel-link]: https://groupac.pythonanywhere.com/
+[demo-shield-badge]: https://img.shields.io/badge/TRY%20DEMO-ONLINE-F38020?labelColor=black&logo=cloudflare&style=for-the-badge
 
 <!-- Social Share Links -->
-[share-x-link]: https://x.com/intent/tweet?hashtags=opensource,fishing,flask&text=Check%20out%20this%20amazing%20fishing%20club%20management%20system&url=https%3A%2F%2Fgithub.com%2FChanMeng666%2Ffishing-club-project
+[share-x-link]: https://x.com/intent/tweet?hashtags=opensource,fishing,nextjs&text=Check%20out%20this%20amazing%20fishing%20club%20website&url=https%3A%2F%2Fgithub.com%2FChanMeng666%2Ffishing-club-project
 [share-telegram-link]: https://t.me/share/url?text=Check%20out%20this%20fishing%20club%20project&url=https%3A%2F%2Fgithub.com%2FChanMeng666%2Ffishing-club-project
 [share-whatsapp-link]: https://api.whatsapp.com/send?text=Check%20out%20this%20fishing%20club%20project%20https%3A%2F%2Fgithub.com%2FChanMeng666%2Ffishing-club-project
-[share-reddit-link]: https://www.reddit.com/submit?title=Amazing%20Fishing%20Club%20Management%20System&url=https%3A%2F%2Fgithub.com%2FChanMeng666%2Ffishing-club-project
+[share-reddit-link]: https://www.reddit.com/submit?title=Amazing%20Fishing%20Club%20Website&url=https%3A%2F%2Fgithub.com%2FChanMeng666%2Ffishing-club-project
 [share-linkedin-link]: https://linkedin.com/sharing/share-offsite/?url=https://github.com/ChanMeng666/fishing-club-project
 
 [share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white&style=flat-square
@@ -691,4 +508,3 @@ A: Regular SQLite database backups are recommended. See our deployment guide for
 [share-whatsapp-shield]: https://img.shields.io/badge/-share%20on%20whatsapp-black?labelColor=black&logo=whatsapp&logoColor=white&style=flat-square
 [share-reddit-shield]: https://img.shields.io/badge/-share%20on%20reddit-black?labelColor=black&logo=reddit&logoColor=white&style=flat-square
 [share-linkedin-shield]: https://img.shields.io/badge/-share%20on%20linkedin-black?labelColor=black&logo=linkedin&logoColor=white&style=flat-square
-</rewritten_file>
