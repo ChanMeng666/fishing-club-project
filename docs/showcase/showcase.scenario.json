@@ -1,0 +1,59 @@
+{
+  "baseUrl": "https://fishing-club.pages.dev/",
+  "reducedMotion": "reduce",
+  "viewports": {
+    "desktop": { "width": 1280, "height": 800, "deviceScaleFactor": 2 },
+    "mobile": { "width": 390, "height": 844, "deviceScaleFactor": 3, "isMobile": true }
+  },
+  "pages": [
+    {
+      "label": "hero",
+      "viewport": "desktop",
+      "url": "/",
+      "before": [
+        { "action": "wait", "ms": 1500 }
+      ]
+    },
+    {
+      "label": "features",
+      "viewport": "desktop",
+      "url": "/",
+      "before": [
+        { "action": "wait", "ms": 1500 },
+        { "action": "scroll", "by": 700 },
+        { "action": "wait", "ms": 800 }
+      ]
+    },
+    {
+      "label": "register",
+      "viewport": "desktop",
+      "url": "/register",
+      "before": [
+        { "action": "wait", "ms": 2000 }
+      ]
+    },
+    {
+      "label": "mobile-hero",
+      "viewport": "mobile",
+      "url": "/",
+      "before": [
+        { "action": "wait", "ms": 1500 }
+      ]
+    }
+  ],
+  "demo": {
+    "size": { "width": 1280, "height": 720 },
+    "steps": [
+      { "action": "goto", "url": "https://fishing-club.pages.dev/" },
+      { "action": "wait", "ms": 1500 },
+      { "action": "scroll", "by": 400 },
+      { "action": "wait", "ms": 600 },
+      { "action": "scroll", "by": 600 },
+      { "action": "wait", "ms": 600 },
+      { "action": "scroll", "to": "top" },
+      { "action": "wait", "ms": 600 },
+      { "action": "goto", "url": "https://fishing-club.pages.dev/register" },
+      { "action": "wait", "ms": 1500 }
+    ]
+  }
+}
